@@ -1,5 +1,5 @@
 var data = ["hey there ","more stufff", "even more"]; 
-fetch('lorem.json').then(response=>response.json()).then(x=>{
+fetch('/info').then(response=>response.json()).then(x=>{
 	 console.log(x);
 	 data = x.data; 
 })
